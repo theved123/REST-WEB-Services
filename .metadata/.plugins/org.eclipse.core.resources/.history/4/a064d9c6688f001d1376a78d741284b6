@@ -1,0 +1,5 @@
+package com.TheVedBlogApp.blog.exceptions;
+
+public class ApiException {
+
+}

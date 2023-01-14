@@ -1,0 +1,5 @@
+package com.TheVedBlogApp.blog.config;
+
+public class SwaggerConfig {
+
+}

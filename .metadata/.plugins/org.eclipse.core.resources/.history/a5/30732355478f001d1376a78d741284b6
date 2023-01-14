@@ -1,0 +1,5 @@
+package com.TheVedBlogApp.blog.payloads;
+
+public class JwtAuthRequest {
+
+}

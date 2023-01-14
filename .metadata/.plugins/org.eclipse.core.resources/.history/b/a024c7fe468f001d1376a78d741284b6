@@ -1,0 +1,5 @@
+package com.TheVedBlogApp.blog.controllers;
+
+public class AuthController {
+
+}

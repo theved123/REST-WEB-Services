@@ -1,0 +1,15 @@
+package com.practice;
+
+import org.springframework.util.StringUtils;
+
+public class aa {
+
+	
+	
+	public static void main(String[] args) {
+		
+		
+		int count =StringUtils.countOccurrencesOf("LoveYourself", "o");
+		System.out.println(count);
+	}
+}

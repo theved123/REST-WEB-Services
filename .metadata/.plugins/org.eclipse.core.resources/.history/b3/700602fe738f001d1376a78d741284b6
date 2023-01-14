@@ -1,0 +1,5 @@
+package com.TheVedBlogApp.blog.repositories;
+
+public interface RoleRepo {
+
+}

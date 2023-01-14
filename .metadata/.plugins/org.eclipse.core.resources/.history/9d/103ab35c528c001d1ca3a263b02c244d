@@ -1,0 +1,14 @@
+package com.TheVedBlogApp.blog.utils;
+
+public class occurance {
+
+	
+	public static void main(String[] args) {
+		
+		
+		String str="akjajshdnkawewlkfi";
+		
+		
+		Map<String, Long> result = Arrays.stream(str.split("")).map(String::toLowerCase).collect(Collectors.groupingBy(s -> s, LinkedHashMap::new, Collectors.counting()));  
+	}
+}

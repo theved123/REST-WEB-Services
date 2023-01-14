@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;blog-app-apis/images/2b04d5de-b290-46f2-b749-e61c149d520a.jpg&apos; to &apos;blog.jpg&apos;" description="Rename resource &apos;2b04d5de-b290-46f2-b749-e61c149d520a.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="images/2b04d5de-b290-46f2-b749-e61c149d520a.jpg" name="blog.jpg" stamp="1672160518658" updateReferences="true"/>
+</session>

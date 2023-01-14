@@ -1,0 +1,5 @@
+package com.TheVedBlogApp.blog.security;
+
+public class JwtAuthResponse {
+
+}

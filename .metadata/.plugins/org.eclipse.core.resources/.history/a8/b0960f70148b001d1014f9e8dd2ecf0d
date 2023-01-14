@@ -1,0 +1,16 @@
+package com.TheVedBlogApp.blog.config;
+
+import org.springframework.context.annotation.Configuration;
+
+
+@Configuration
+public class SecurityConfig extends WebSecurityConfigurerAdapter{
+
+	public static void main(String[] args) {
+
+		
+		
+		
+	}
+
+}

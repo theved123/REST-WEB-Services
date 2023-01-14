@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AppConstants.java&apos; to &apos;blog-app-apis/src/main/java/com.TheVedBlogApp.blog.config&apos;&#x0D;&#x0A;- Original project: &apos;phone-book-App-apis&apos;&#x0D;&#x0A;- Destination element: &apos;blog-app-apis/src/main/java/com.TheVedBlogApp.blog.config&apos;&#x0D;&#x0A;- Original element: &apos;com.phonebook.props.AppConstants.java&apos;" description="Copy compilation unit" destination="=blog-app-apis/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.TheVedBlogApp.blog.config" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.phonebook.props{AppConstants.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1672071240600" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,47 @@
+package com.TheVedBlogApp.blog.config;
+
+import java.util.Arrays;
+import java.util.Collections;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.ApiKey;
+import springfox.documentation.service.Contact;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+
+@Configuration
+public class SwaggerConfig {
+
+	public static final String AUTHORIZATION_HEADER = "Authorization";
+
+	
+	private ApiKey apikeys() {
+		
+		return new ApiKey("Jwt",AUTHORIZATION_HEADER, "header");
+		
+	}
+	@Bean
+	public Docket api() {
+
+		return new Docket(DocumentationType.SWAGGER_2).apiInfo(getInfo())
+				.select()
+				.securityContext()
+				.securutySchemes(Arrays.asList(apikeys()))
+				.apis(RequestHandlerSelectors.any())
+				.paths(PathSelectors.any()).build();
+
+	}
+
+	private ApiInfo getInfo() {
+		// TODO Auto-generated method stub
+		return new ApiInfo("This is B Application : Backend Course", "THis Project Developed with Ved Gaikwad", "1.0",
+				"Terms of Service", new Contact("http://www.vedpgaikwad.in", "The Ved", "Developed with Ved"),
+				"License Api", "Apis URL", Collections.emptyList());
+	};
+
+}
